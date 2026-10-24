@@ -1,0 +1,30 @@
+{
+  "about": "TEMPLATE — copy this to goldset.json and replace the examples with 8 questions about YOUR my_framework_kb.md: 6 with answerable=true and 2 with answerable=false. The notebook warns you if an evidence phrase is not in your KB word-for-word.",
+  "kb_file": "my_framework_kb.md",
+  "how_to_fill_this_in": {
+    "qid": "Q1 .. Q8",
+    "question": "how a practitioner would really ask it, not a keyword search",
+    "evidence": "one short phrase copied WORD-FOR-WORD from your KB. Under ~80 characters, on one line. Leave empty for the 2 unanswerable questions.",
+    "answerable": "true for 6 questions, false for 2"
+  },
+  "questions": [
+    {
+      "qid": "Q1",
+      "question": "EXAMPLE — delete this. What are the four core functions of the NIST AI Risk Management Framework?",
+      "evidence": ["a short phrase copied word-for-word from your KB"],
+      "answerable": true
+    },
+    {
+      "qid": "Q7",
+      "question": "EXAMPLE — delete this. The OFF-TOPIC question: clearly outside cybersecurity, e.g. What is the capital of France?",
+      "evidence": [],
+      "answerable": false
+    },
+    {
+      "qid": "Q8",
+      "question": "EXAMPLE — delete this. The SOUNDS-RIGHT-BUT-ABSENT question: name a DIFFERENT framework your KB never covers, phrased exactly like your other questions — e.g. if your KB is the NIST AI RMF, ask about the NIST Cybersecurity Framework. Shared vocabulary is the point: this is the question that will expose a threshold that is too loose, and an easy off-topic question like Q7 will not.",
+      "evidence": [],
+      "answerable": false
+    }
+  ]
+}

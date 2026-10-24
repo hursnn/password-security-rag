@@ -1,0 +1,8 @@
+chunk_size,overlap,k,score_threshold,found,refused,experiment,max_distance,found_any
+500,100,3,0.1,6,0,newline_threshold,,
+500,100,3,0.2,6,1,newline_threshold,,
+500,100,3,0.3,6,1,newline_threshold,,
+500,100,3,0.4,5,2,newline_threshold,,
+500,100,3,0.5,4,2,newline_threshold,,
+500,100,3,0.6,2,2,newline_threshold,,
+500,100,3,0.55,6,2,matched_baseline,0.9,6.0
